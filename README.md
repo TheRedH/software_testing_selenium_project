@@ -25,7 +25,26 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
 ## responsiveness tests
 
 ## car search tests
-
+- test_search_car_asd:
+    - Tests searching for a car with the keyword "asd". It verifies that one car is found.
+- test_search_car_lamborgini:
+    - Tests searching for a car with the keyword "lamborgini". It verifies that one car is found.
+- test_search_car_by_model:
+    - Tests searching for a car by selecting the model "r8" from a dropdown. It verifies that no cars are found.
+- test_search_car_by_price: 
+    - Tests searching for cars within a specified price range by adjusting price sliders. It verifies that no cars are found within the specified range.
+- test_price_slider_lower_boundary: 
+    - Tests the lower boundary of the price slider to ensure it increases when moved.
+- test_price_slider_upper_boundary: 
+    - Tests the upper boundary of the price slider to ensure it decreases when moved.
+- test_search_car_by_city: 
+    - Tests searching for cars in the city "Mashhad". It verifies that no cars are found.
+- test_price_slider_lower_not_exceed_upper: 
+    - Tests that the lower price boundary does not exceed the upper boundary.
+- test_search_car_by_year: 
+    - Tests searching for cars from the year "2020". It verifies that no cars are found.
+- test_search_car_by_body_style: 
+    - Tests searching for cars with the body style "racing". It verifies that no cars are found.
 ## dashboard tests
 
 ## site navigation tests (AliVazirinejad_9912762494)

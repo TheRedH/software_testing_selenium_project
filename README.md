@@ -16,7 +16,7 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
 - signin/signup:Somayeh Ghorbani Moghaddam
 - responsiveness:
 - car search:
-- dashboard:
+- dashboard: رضا فرخ (۹۹۱۲۷۶۲۶۷۶)
 - site navigation: علی وزیری نژاد (۹۹۱۲۷۶۲۴۹۴)
 
 
@@ -45,8 +45,21 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
     - Tests searching for cars from the year "2020". It verifies that no cars are found.
 - test_search_car_by_body_style: 
     - Tests searching for cars with the body style "racing". It verifies that no cars are found.
-## dashboard tests
-
+## dashboard tests (RezaFarokh_9912762676)
+- test_login
+    - login before going to dashboard (pass)
+- test_add_car
+    - test for funtion of this session (pass)
+- test_delete_car
+    - test for can we delete a car or not (pass)
+- test_shopping_cart
+    - test that we are able to complete or not (fail)
+- test_about_button
+    - test about button from this page work or not (pass)
+- test_question_session
+    -  that we can redirect to car page or not (fail)
+- video of test:
+    - RezaFarokh_9912762676/output.mp4
 ## site navigation tests (AliVazirinejad_9912762494)
 - navbar_home_test:
     - tests whether the 'خانه' link in navbar redirects to the home page

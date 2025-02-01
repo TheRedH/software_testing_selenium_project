@@ -13,7 +13,7 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
     - users can put their own cars for sale
 
 # Test Divisions
-- signin/signup:Somayeh Ghorbani Moghaddam
+- signin/signup:سمیه قربانی مقدم (۹۹۱۲۷۶۲۰۸۵)
 - responsiveness:
 - car search:
 - dashboard: رضا فرخ (۹۹۱۲۷۶۲۶۷۶)

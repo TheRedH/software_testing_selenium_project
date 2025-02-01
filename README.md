@@ -15,13 +15,12 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
 # Test Divisions
 - signin/signup: سمیه قربانی مقدم (۹۹۱۲۷۶۲۰۸۵)
 - responsiveness: سید علی موسوی (۹۹۱۲۰۹۷)
-- car search:
+- car search: سعید طالبی زاده (۹۹۱۲۷۶۲۷۲۳)
 - dashboard: رضا فرخ (۹۹۱۲۷۶۲۶۷۶)
 - site navigation: علی وزیری نژاد (۹۹۱۲۷۶۲۴۹۴)
 
 
 ## signin/signup tests (SomayehGhorbaniMoghaddam_9912762085)
-
 - **EmptyFieldsTest** (Empty Fields Test)  
   This test checks whether the system displays an appropriate error message when a user tries to submit the login or signup form without entering any information.  
 
@@ -41,7 +40,7 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
   This test checks whether the system correctly handles login attempts with a valid email but an incorrect password by displaying an appropriate error message.  
 
 
-## responsiveness tests
+## responsiveness tests (SeyedAliMousavi_9912097)
 - Viewport Resizing Test:
      - Ensures the website adapts correctly to different screen sizes, including desktop, tablet, and mobile. The test resizes the browser window and verifies that the layout remains intact without breaking.
 
@@ -60,7 +59,8 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
 - Horizontal Scroll Test:
      - Detects unnecessary horizontal scrolling in small screen sizes. It checks if the content width exceeds the viewport width, which could indicate layout problems.
 
-## car search tests
+
+## car search tests (SaeedTalebizadeh_9912762723)
 - test_search_car_asd:
     - Tests searching for a car with the keyword "asd". It verifies that one car is found.
 - test_search_car_lamborgini:
@@ -81,6 +81,8 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
     - Tests searching for cars from the year "2020". It verifies that no cars are found.
 - test_search_car_by_body_style: 
     - Tests searching for cars with the body style "racing". It verifies that no cars are found.
+
+
 ## dashboard tests (RezaFarokh_9912762676)
 - test_login
     - login before going to dashboard (pass)
@@ -96,6 +98,8 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
     -  that we can redirect to car page or not (fail)
 - video of test:
     - RezaFarokh_9912762676/output.mp4
+
+
 ## site navigation tests (AliVazirinejad_9912762494)
 - navbar_home_test:
     - tests whether the 'خانه' link in navbar redirects to the home page

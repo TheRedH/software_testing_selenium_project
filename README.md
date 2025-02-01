@@ -13,8 +13,8 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
     - users can put their own cars for sale
 
 # Test Divisions
-- signin/signup:سمیه قربانی مقدم (۹۹۱۲۷۶۲۰۸۵)
-- responsiveness:
+- signin/signup: سمیه قربانی مقدم (۹۹۱۲۷۶۲۰۸۵)
+- responsiveness: سید علی موسوی (۹۹۱۲۰۹۷)
 - car search:
 - dashboard: رضا فرخ (۹۹۱۲۷۶۲۶۷۶)
 - site navigation: علی وزیری نژاد (۹۹۱۲۷۶۲۴۹۴)
@@ -42,6 +42,23 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
 
 
 ## responsiveness tests
+- Viewport Resizing Test:
+     - Ensures the website adapts correctly to different screen sizes, including desktop, tablet, and mobile. The test resizes the browser window and verifies that the layout remains intact without breaking.
+
+- Mobile View Test:
+     - Simulates a mobile device using browser emulation to check if the mobile-specific layout, styles, and functionalities (e.g., responsive menus) are properly applied.
+
+- Hamburger Menu Test:
+     - Verifies that the hamburger menu appears in mobile view and expands when clicked. It also ensures that menu items are displayed correctly and can be interacted with.
+
+- Responsive Images Test:
+     - Checks whether images scale properly across different screen sizes without exceeding their container width. This prevents layout issues and unnecessary horizontal scrolling.
+
+- Tablet Layout Test:
+     - Ensures that the website layout remains properly structured when viewed on a tablet. It verifies the correct positioning of key elements and prevents layout shifts.
+
+- Horizontal Scroll Test:
+     - Detects unnecessary horizontal scrolling in small screen sizes. It checks if the content width exceeds the viewport width, which could indicate layout problems.
 
 ## car search tests
 - test_search_car_asd:

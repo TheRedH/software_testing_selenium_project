@@ -20,7 +20,26 @@ https://github.com/Ali-M-Tabatabaei/online-car-store
 - site navigation: علی وزیری نژاد (۹۹۱۲۷۶۲۴۹۴)
 
 
-## signin/signup tests
+## signin/signup tests (SomayehGhorbaniMoghaddam_9912762085)
+
+- **EmptyFieldsTest** (Empty Fields Test)  
+  This test checks whether the system displays an appropriate error message when a user tries to submit the login or signup form without entering any information.  
+
+- **InvalidEmailTest** (Invalid Email Test)  
+  This test verifies whether the system correctly detects and rejects an invalid email address (e.g., missing `@` or an incomplete domain) and displays an appropriate error message.  
+
+- **ShowPassIconTest** (Show/Hide Password Test)  
+  This test checks if the "Show/Hide Password" button in the login or signup form functions correctly by toggling the password visibility from hidden (`•••••`) to visible text.  
+
+- **SignOutSignInTest** (Sign Out and Sign In Test)  
+  This test verifies whether a user can successfully log out (`Sign Out`) and then log back into their account without any issues.  
+
+- **SignupTest** (Signup Test)  
+  This test ensures that a new user can complete the signup process successfully and is redirected to the appropriate page after registration.  
+
+- **WrongPasswordTest** (Wrong Password Test)  
+  This test checks whether the system correctly handles login attempts with a valid email but an incorrect password by displaying an appropriate error message.  
+
 
 ## responsiveness tests
 
